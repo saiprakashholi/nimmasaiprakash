@@ -59,12 +59,12 @@ $(document).ready(function($) {
 		  slidesToScroll: 1,
 		  dots: true,
 		  infinite: true,
-		  autoplay: false,
+		  autoplay: true,
 	  	autoplaySpeed: 2000,
 	  	nextArrow: '<span class="next"><i class="ion-ios-arrow-right"></i></span>',
 	  	prevArrow: '<span class="prev"><i class="ion-ios-arrow-left"></i></span>',
 	  	arrows: true,
-	  	draggable: false,
+	  	draggable: true,
 	  	adaptiveHeight: true
 		});
 
@@ -84,16 +84,16 @@ $(document).ready(function($) {
 		$('.multiple-items').slick({
 		  slidesToShow: 3,
 		  slidesToScroll: 1,
-		  dots: true,
+		  dots: false,
 		  infinite: true,
 		  
 		  autoplay: true,
-	  	autoplaySpeed: 2000,
+	  	autoplaySpeed: 1000,
 
 		  arrows: true,
 		  nextArrow: '<span class="next"><i class="ion-ios-arrow-right"></i></span>',
 	  	prevArrow: '<span class="prev"><i class="ion-ios-arrow-left"></i></span>',
-	  	draggable: false,
+	  	draggable: true	,
 	  	responsive: [
 		    {
 		      breakpoint: 1125,
