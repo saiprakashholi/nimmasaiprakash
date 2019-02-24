@@ -12,6 +12,21 @@
   font-weight: normal;
   font-style: normal; }
 
+  @font-face {
+    font-family: darkHeartFont;
+    src: url("../fonts/fontFamilyDownloded/DarkHeart-Script-PersonalUse.otf");
+  }
+
+  @font-face {
+    font-family: deliciousFont;
+    src: url("../fonts/fontFamilyDownloded/DeliciousYellow-PersonalUse.otf");
+  }
+
+  @font-face {
+    font-family: sandDunes;
+    src: url("../fonts/fontFamilyDownloded/Sand_Dunes.otf");
+  }
+
 .mouse-wrap, .scroll-wrap {
   position: absolute;
   bottom: 50px;
