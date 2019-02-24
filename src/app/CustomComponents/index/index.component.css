@@ -4,7 +4,13 @@
     font-size: 150px;
     color: white;
     /* font-weight: 300; */
-    margin-top: 150px;
+    margin-top: 10px;
     margin-bottom: 0px;
+    opacity: 0.7;
+}
+
+.floatRight{
+    float: right !important;
+
 }
 

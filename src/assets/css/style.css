@@ -821,7 +821,7 @@ input, select, textarea {
 .pb_outline-light {
   border: 1px solid rgba(255, 255, 255, 0.2);
   text-transform: uppercase;
-  background: none;
+  background: rgb(59, 59, 59);
   color: white; }
   .pb_outline-light:hover, .pb_outline-light:active, .pb_outline-light:focus {
     outline: none;
@@ -1318,7 +1318,7 @@ a {
   background: rgba(255, 255, 255, 0.7) !important; }
 
 .pb_section {
-  padding: 9em 0;
+  padding: 6em 0;
   position: relative;
   display: block; }
   @media (max-width: 991px) {
@@ -1674,7 +1674,11 @@ a {
 
 .pb_slide_v2 .slick-slide {
   padding: 10px;
-  position: relative; }
+  position: relative;
+
+  display:block;
+  height:500px;
+  overflow:hidden;}
 
 .pb_slide_v2.slider-nav .slick-slide {
   margin: 10px;
@@ -1694,6 +1698,7 @@ a {
     color: #00CA4C; }
 
 .pb_slide_v2 .slide_content {
+  height: 100%;
   background: #fff;
   -webkit-box-shadow: 0px 1px 10px -2px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 1px 10px -2px rgba(0, 0, 0, 0.15); }
