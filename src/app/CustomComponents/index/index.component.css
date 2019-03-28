@@ -11,6 +11,36 @@
 
 .floatRight{
     float: right !important;
-
 }
 
+.backImgKemmangundi{
+    background-image: url(/assets/images/kemmanagundi-min.jpg);
+    height: 300px;
+    background-size: cover;
+}
+
+.backImgKudla{
+    background-image: url(/assets/images/kudlaBeachComp.jpg);
+    height: 300px;
+    background-size: cover;
+}
+
+.backImgSaintMery{
+    background-image: url(/assets/images/saintMeryCompressed.jpg);
+    height: 300px;
+    background-size: cover;
+}
+
+.galImgTitle{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: white;
+}
+.galImgTitle .title{
+    font-size: 20px;
+}
+
+.galImgTitle .sub-title{
+    font-size: 14px;
+}
